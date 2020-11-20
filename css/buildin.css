@@ -3,29 +3,26 @@
  */
 
 /* Links */
-a,
-a:focus,
-a:hover {
+
+a, a:focus, a:hover {
   color: #fff;
 }
 
 /* Custom default button */
-.btn-secondary,
-.btn-secondary:hover,
-.btn-secondary:focus {
+
+.btn-secondary, .btn-secondary:hover, .btn-secondary:focus {
   color: #333;
-  text-shadow: none; /* Prevent inheritance from `body` */
+  text-shadow: none;
+  /* Prevent inheritance from `body` */
   background-color: #fff;
   border: .05rem solid #fff;
 }
-
 
 /*
  * Base structure
  */
 
-html,
-body {
+html, body {
   height: 100%;
   background-image: url(https://cdn.jsdelivr.net/gh/lavacup2233/lavacup2233.github.io/imgs/keyline-illustration-5.svg);
 }
@@ -42,10 +39,10 @@ body {
   max-width: 42em;
 }
 
-
 /*
  * Header
  */
+
 .masthead {
   margin-bottom: 2rem;
 }
@@ -62,12 +59,11 @@ body {
   border-bottom: .25rem solid transparent;
 }
 
-.nav-masthead .nav-link:hover,
-.nav-masthead .nav-link:focus {
+.nav-masthead .nav-link:hover, .nav-masthead .nav-link:focus {
   border-bottom-color: rgba(255, 255, 255, .25);
 }
 
-.nav-masthead .nav-link + .nav-link {
+.nav-masthead .nav-link+.nav-link {
   margin-left: 1rem;
 }
 
@@ -85,22 +81,23 @@ body {
   }
 }
 
-
 /*
  * Cover
  */
+
 .cover {
   padding: 0 1.5rem;
 }
+
 .cover .btn-lg {
   padding: .75rem 1.25rem;
   font-weight: 700;
 }
 
-
 /*
  * Footer
  */
+
 .mastfoot {
   color: rgba(255, 255, 255, .5);
 }
